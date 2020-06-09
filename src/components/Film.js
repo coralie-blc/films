@@ -14,8 +14,6 @@ const Film = ({ title, image,changeView, film}) => {
 //   console.log(error);
 // })
 
-// console.log(imge);
-
   return (
     <>
 <Card onClick={handleClickFilm}>

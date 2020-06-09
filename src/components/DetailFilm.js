@@ -38,7 +38,7 @@ const DetailFilm = ({ film, changeViewAccueil }) => {
         </div>
         
         <div>
-          <img src={film.picture}/>
+          <img src="https://picsum.photos/200/300"/>
         </div>
 
         <div>

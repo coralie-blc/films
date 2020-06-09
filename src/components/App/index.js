@@ -31,7 +31,6 @@ class App extends React.Component {
 
 
   changeViewAccueil() {
-    console.log("ok");
     this.setState ({
       currentView: 'listFilm',
     });
