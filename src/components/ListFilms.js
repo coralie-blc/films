@@ -3,7 +3,6 @@ import React from 'react';
 import Film from 'src/components/Film';
 
 import films from 'src/data/films';
-console.log(films)
 
 const ListFilms = ({listFilms, changeView}) => {
   return(

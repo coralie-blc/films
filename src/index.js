@@ -23,11 +23,10 @@ import { Provider } from 'react-redux';
  * Imports locaux
  */
 import App from 'src/components/App';
-import appStore from 'src/store';
 
 /**
  * Code
  */
-const rootComponent = <Provider store={appStore}><App/></Provider>;
+const rootComponent = <App/>;
 const renderingArea = document.querySelector('#root');
 ReactDOM.render(rootComponent, renderingArea);
