@@ -1,0 +1,62 @@
+#app {
+  width: 80%;
+  margin: auto;
+}
+
+h3 {
+  font-size: 2em;
+  text-align: center;
+  font-weight: bold;
+  text-shadow: 1px 1px 2px grey;
+
+}
+
+.list-films {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card-film {
+  width: 2em;
+  margin: 2em;
+  justify-content: center;
+}
+
+.card-film > img {
+  text-align: center;
+}
+
+.fiche-film {
+  width: 60%;
+  margin: 5em auto;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  text-align: center;
+  border: 1px solid grey;
+  padding: 2em;
+}
+
+.fiche-film > div {
+  width: 100%;
+  margin-bottom: 2em;
+}
+
+.id-film {
+  text-align: right;
+  font-size: .8em;
+  margin-right: 1em;
+}
+
+.title {
+  font-size: 2em;
+}
+
+.accueil-button {
+  margin: 1em 0 0 1em;
+  background-color: lightgreen;
+  width: fit-content;
+  padding: .7em;
+  border-radius: 10px;
+}
