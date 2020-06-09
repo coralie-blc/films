@@ -36,6 +36,7 @@ h3 {
   text-align: center;
   border: 1px solid grey;
   padding: 2em;
+  box-shadow: 10px 5px 5px grey;
 }
 
 .fiche-film > div {
