@@ -1,10 +1,13 @@
 import React from 'react';
+import { Pagination } from 'react-bootstrap';
+
 
 import Film from 'src/components/Film';
 
 import films from 'src/data/films';
 
 const ListFilms = ({listFilms, changeView}) => {
+  
   return(
     <>
       <h3>Liste de films</h3>

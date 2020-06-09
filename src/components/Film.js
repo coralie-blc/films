@@ -1,5 +1,5 @@
 import React from 'react';
-import axios from 'axios';
+import { Card } from 'react-bootstrap';
 
 
 const Film = ({ title, image,changeView, film}) => {
@@ -18,12 +18,13 @@ const Film = ({ title, image,changeView, film}) => {
 
   return (
     <>
-      <div className="card-film"
-        onClick={handleClickFilm}
-        >
-        <img src={image}/>
-        <p>{title}</p>
-      </div>
+<Card onClick={handleClickFilm}>
+  <Card.Img variant="top" src={image} />
+  <Card.Body>
+    <Card.Title>{title}</Card.Title>
+    {/* <Button variant="primary">Détails</Button> */}
+  </Card.Body>
+</Card>
     </>
   );
 }
