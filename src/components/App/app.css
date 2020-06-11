@@ -11,6 +11,10 @@ h3 {
 
 }
 
+.title_list_film {
+  margin-top: 5em;
+}
+
 .list-films {
   display: inline;
   flex-wrap: wrap;
@@ -29,7 +33,7 @@ h3 {
 
 .fiche-film {
   width: 60%;
-  margin: 5em auto;
+  margin: 2em auto;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
@@ -77,6 +81,7 @@ h3 {
   box-shadow: 10px 5px 5px grey;
   width: 8em;
   text-align: center;
+  padding-top: 1em;
 }
 
 .card-body {
@@ -95,4 +100,14 @@ h3 {
 .img-list {
   width: 40px;
   height: 64px;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  margin-top: 2em
+}
+
+.pagination > li {
+  margin: 0 .5em;
 }
