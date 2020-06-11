@@ -4,7 +4,5 @@
 ### Start server
 
 
-<img width="794" alt="img" src="https://user-images.githubusercontent.com/55562204/84191917-82d5f680-aa99-11ea-85e8-24f5e8e37e83.png">
-
-<img width="942" alt="img2" src="https://user-images.githubusercontent.com/55562204/84191914-810c3300-aa99-11ea-9ce4-5229740bdfcb.png">
-
+<img width="1057" alt="img2" src="https://user-images.githubusercontent.com/55562204/84434969-3f15f500-ac31-11ea-8e41-521730dce2de.png">
+<img width="1174" alt="img" src="https://user-images.githubusercontent.com/55562204/84434974-4210e580-ac31-11ea-98b3-a9e65d1397a4.png">
