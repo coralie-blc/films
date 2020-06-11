@@ -17,7 +17,7 @@ const Film = ({ title, image,changeView, film}) => {
   return (
     <>
 <Card onClick={handleClickFilm}>
-  <Card.Img variant="top" src={image} />
+  <Card.Img className="img-list" variant="top" src="https://picsum.photos/200/300" />
   <Card.Body>
     <Card.Title>{title}</Card.Title>
     {/* <Button variant="primary">Détails</Button> */}

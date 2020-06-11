@@ -16,7 +16,7 @@ const ListFilms = ({listFilms, changeView}) => {
             key={film._id}
             film={film}
             title={film.title}
-            image={film.thumbnail}
+            // image={'<img className="img-list" src="https://picsum.photos/200/300"></img>'}
             changeView={changeView}
           />
         ))}

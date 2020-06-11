@@ -90,3 +90,9 @@ h3 {
   font-weight: bold;
   margin: 1em auto;
 }
+
+
+.img-list {
+  width: 40px;
+  height: 64px;
+}
