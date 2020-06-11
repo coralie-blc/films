@@ -1,7 +1,6 @@
 import React from 'react';
 
 const DetailFilm = ({ film, changeViewAccueil }) => {
-
   const handleClickAccueil = () => {
     changeViewAccueil();
   };
@@ -26,17 +25,7 @@ const DetailFilm = ({ film, changeViewAccueil }) => {
         <div>
           <p>{film.registered}</p>
         </div>
-        
-        <ul>
-          {film.tags.map((tag) => (
-            <li key={tag}>{tag}</li>
-              ))}
-        </ul>
-        
-        <div>
-          <p>{film.isActive}</p>
-        </div>
-        
+
         <div>
           <img src="https://picsum.photos/200/300"/>
         </div>
