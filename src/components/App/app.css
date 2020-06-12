@@ -1,7 +1,19 @@
 #app {
   width: 80%;
   margin: auto;
+  background-color: white;
+  position: relative;
+  padding-bottom: 2em;
+  border-radius: 15px;
 }
+
+#root {
+  background-image: url('../../img/background.png');
+  background-size: cover;
+  height: 100vh;
+  margin-top: 0!important;
+  position: absolute;
+  top: 0em;}
 
 h3 {
   font-size: 2em;
@@ -13,6 +25,7 @@ h3 {
 
 .title_list_film {
   margin: 3em 0 1em 0;
+  padding-top: 1em;
 }
 
 .list-films {
@@ -131,4 +144,12 @@ h3 {
 
 .card:hover .look {
 	display: block;
+}
+
+
+.film-title-details {
+  position: absolute;
+  transform: rotate(-45deg);
+  top: 3em;
+  left: 3em;
 }

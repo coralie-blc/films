@@ -6,13 +6,13 @@ const DetailFilm = ({ film, changeViewAccueil }) => {
   };
 
   return (
-    <div>
+      <>
       <p className="accueil-button" onClick={handleClickAccueil}>Retour Accueil</p>
-      <h3>Détail du film</h3>
+      <h3 className="film-title-details">{film.title} - {film.year}</h3>
       <div className="fiche-film">
-        <div>
+        {/* <div>
           <p className="title">{film.title} - {film.year}</p>
-        </div>
+        </div> */}
 
         <div>
         <p>{film.author}</p>
@@ -34,7 +34,7 @@ const DetailFilm = ({ film, changeViewAccueil }) => {
           <p className="id-film">{film._id}</p>
         </div>
       </div>
-    </div>
+      </>
   );
 }
 
